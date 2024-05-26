@@ -1,30 +1,44 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React, { useEffect, useState } from 'react'
 import classNames from 'classnames/bind'
 
 import styles from './App.module.scss'
+import FullScreenMessage from './components/common/FullScreenMessage'
 const cx = classNames.bind(styles)
 
 function App() {
-  return (
-    <div className={cx('container')}>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  )
+  const [party, setParty] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(false)
+
+  //1. 파티 데이터
+  useEffect(() => {
+    setLoading(true)
+    fetch('http://localhost:8080/party')
+      .then((response) => {
+        if (response.ok === false) {
+          throw new Error('no party data...')
+        }
+        return response.json()
+      })
+      .then((data) => {
+        setParty(data)
+      })
+      .catch((e) => {
+        console.error(e)
+        setError(true)
+      })
+      .finally(() => {
+        setLoading(false)
+      })
+  }, [])
+
+  if (error) {
+    return <FullScreenMessage type="error" />
+  }
+  if (loading) {
+    return <FullScreenMessage type="loading" />
+  }
+  return <div className={cx('container')}>{JSON.stringify(party)}</div>
 }
 
 export default App
