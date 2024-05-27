@@ -37,6 +37,8 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/testing-library__jest-dom", "npm:6.0.0"],\
           ["classnames", "npm:2.5.1"],\
+          ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:9.1.0"],\
           ["eslint-config-react-app", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:7.0.1"],\
@@ -7605,6 +7607,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["craco-alias", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "./.yarn/cache/craco-alias-npm-3.0.1-dc457f5431-238aa77d41.zip/node_modules/craco-alias/",\
+        "packageDependencies": [\
+          ["craco-alias", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["create-require", [\
       ["npm:1.1.1", {\
         "packageLocation": "./.yarn/cache/create-require-npm-1.1.1-839884ca2e-157cbc59b2.zip/node_modules/create-require/",\
@@ -8096,6 +8107,15 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.7"],\
           ["es-errors", "npm:1.3.0"],\
           ["is-data-view", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["date-fns", [\
+      ["npm:3.6.0", {\
+        "packageLocation": "./.yarn/cache/date-fns-npm-3.6.0-e59d980978-0b5fb98159.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:3.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10388,6 +10408,8 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/testing-library__jest-dom", "npm:6.0.0"],\
           ["classnames", "npm:2.5.1"],\
+          ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:9.1.0"],\
           ["eslint-config-react-app", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:7.0.1"],\
