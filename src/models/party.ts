@@ -25,11 +25,12 @@ export interface Location {
   }
 }
 
-interface Account {
+export interface Account {
   bankName: string
   accountNumber: string
+  kakaopayLink?: string
 }
-interface Person {
+export interface Person {
   name: string
   phoneNumber: string
   account: Account
