@@ -1,0 +1,25 @@
+.wrap-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+
+    .wrap-image {
+        width: 100%;
+        position: relative; // 이미지를 position: absolute로 띄우기 위해 wrapper를 기준으로 띄울수 있도록 relative를 줌
+        &::after {
+            display: block;
+            content: ""; // 가상선택자 이므로!
+            padding-bottom: 100%; // 이미지 ratio
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            left: 0; 
+            position: absolute;
+            object-fit: cover; // 잘쪼그라들도록
+        }
+    }
+}
+
+//  absolute와 padding-bottom으로 이미지를 1:1 비율로 변경

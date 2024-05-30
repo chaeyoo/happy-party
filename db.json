@@ -5,7 +5,7 @@
         "location": {
             "lat": 37.498180583423746,
             "lng": 126.86700986319774,
-            "name": "YCH의 입사 축하 파티에 초대합니다!",
+            "name": "고척 스카이돔 1층 야구장",
             "address": "서울 구로구 경인로 430\n고척스카이돔",
             "link": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,470621,1110791&rt1=&rt2=%EA%B3%A0%EC%B2%99%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%94&rtIds=,7890664",
             "waytocome": {
@@ -82,18 +82,18 @@
             "invitation": "소중한 분들을 초대합니다\n소중한 분들을 초대합니다\n소중한 분들을 초대합니다.\n소중한 분들을 초대합니다\n소중한 분들을 초대합니다\n새소중한 분들을 초대합니다\n소중한 분들을 초대합니다"
         },
         "galleryImages": [
-            "party_01",
-            "party_02",
-            "party_03",
-            "party_04",
-            "party_05",
-            "party_06",
-            "party_07",
-            "party_08",
-            "party_09",
-            "party_10",
-            "party_11",
-            "party_12"
+            "/assets/images/party_01.png",
+            "/assets/images/party_02.png",
+            "/assets/images/party_03.png",
+            "/assets/images/party_04.png",
+            "/assets/images/party_05.png",
+            "/assets/images/party_06.png",
+            "/assets/images/party_07.png",
+            "/assets/images/party_08.png",
+            "/assets/images/party_09.png",
+            "/assets/images/party_10.png",
+            "/assets/images/party_11.png",
+            "/assets/images/party_12.png"
         ],
         "attendCount": 0
     }

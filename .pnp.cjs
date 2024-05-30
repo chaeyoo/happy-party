@@ -47,9 +47,11 @@ const RAW_RUNTIME_STATE =
           ["json-server", "npm:1.0.0-beta.0"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.3.1"],\
+          ["react-day-picker", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:8.10.1"],\
           ["react-dom", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:18.3.1"],\
           ["react-scripts", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:5.0.1"],\
           ["sass", "npm:1.77.2"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -10418,9 +10420,11 @@ const RAW_RUNTIME_STATE =
           ["json-server", "npm:1.0.0-beta.0"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.3.1"],\
+          ["react-day-picker", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:8.10.1"],\
           ["react-dom", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:18.3.1"],\
           ["react-scripts", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:5.0.1"],\
           ["sass", "npm:1.77.2"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -15809,6 +15813,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-day-picker", [\
+      ["npm:8.10.1", {\
+        "packageLocation": "./.yarn/cache/react-day-picker-npm-8.10.1-708bfe7c0e-a0ff28c4b6.zip/node_modules/react-day-picker/",\
+        "packageDependencies": [\
+          ["react-day-picker", "npm:8.10.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:8.10.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-day-picker-virtual-7e70172f7d/0/cache/react-day-picker-npm-8.10.1-708bfe7c0e-a0ff28c4b6.zip/node_modules/react-day-picker/",\
+        "packageDependencies": [\
+          ["react-day-picker", "virtual:0c4020a74da3d95b675075a021a69f4181cbd7999174edca9d8c8083721fa9d545f4856166bcf9b274bce3bff5036349b445ef2c5e45bd8bfd0612f7a99ff3d7#npm:8.10.1"],\
+          ["@types/date-fns", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["date-fns", "npm:3.6.0"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/date-fns",\
+          "@types/react",\
+          "date-fns",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-dev-utils", [\
       ["npm:12.0.1", {\
         "packageLocation": "./.yarn/cache/react-dev-utils-npm-12.0.1-83ba06e3ee-94bc4ee501.zip/node_modules/react-dev-utils/",\
@@ -17026,6 +17056,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ssr-window", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "./.yarn/cache/ssr-window-npm-4.0.2-01f9c0151e-e91f690f42.zip/node_modules/ssr-window/",\
+        "packageDependencies": [\
+          ["ssr-window", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ssri", [\
       ["npm:10.0.6", {\
         "packageLocation": "./.yarn/cache/ssri-npm-10.0.6-6b8eaec5ce-e5a1e23a40.zip/node_modules/ssri/",\
@@ -17468,6 +17507,16 @@ const RAW_RUNTIME_STATE =
           ["csso", "npm:4.2.0"],\
           ["picocolors", "npm:1.0.1"],\
           ["stable", "npm:0.1.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:9.4.1", {\
+        "packageLocation": "./.yarn/cache/swiper-npm-9.4.1-38d46d35a3-29feb1e92c.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:9.4.1"],\
+          ["ssr-window", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
