@@ -13,6 +13,7 @@ import Calendar from './components/sections/Calendar'
 import Map from './components/sections/Map'
 import Contact from './components/sections/Contact'
 import Share from './components/sections/Share'
+import { getParty } from './remote/party'
 const cx = classNames.bind(styles)
 
 function App() {
@@ -23,15 +24,27 @@ function App() {
   //1. 파티 데이터
   useEffect(() => {
     setLoading(true)
-    fetch('http://localhost:8080/party')
+    // fetch('http://localhost:8080/party')
+    //   .then((response) => {
+    //     if (response.ok === false) {
+    //       throw new Error('no party data...')
+    //     }
+    //     return response.json()
+    //   })
+    //   .then((data) => {
+    //     setParty(data)
+    //   })
+    //   .catch((e) => {
+    //     console.error(e)
+    //     setError(true)
+    //   })
+    //   .finally(() => {
+    //     setLoading(false)
+    //   })
+    getParty('NkXZjxce7f8Uqct01qhF')
       .then((response) => {
-        if (response.ok === false) {
-          throw new Error('no party data...')
-        }
-        return response.json()
-      })
-      .then((data) => {
-        setParty(data)
+        console.log(response)
+        setParty(response)
       })
       .catch((e) => {
         console.error(e)
