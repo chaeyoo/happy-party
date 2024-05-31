@@ -43,7 +43,7 @@ function App() {
     //   })
     getParty('NkXZjxce7f8Uqct01qhF')
       .then((response) => {
-        console.log(response)
+        // console.log(response)
         setParty(response)
       })
       .catch((e) => {
