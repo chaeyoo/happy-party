@@ -22,7 +22,7 @@ function ImageGallery({ images }: { images: string[] }) {
 
   return (
     <>
-      <Section title="사진첩">
+      <Section title="갤러리">
         <ul className={cx('wrap-images')}>
           {images.map((src, idx) => (
             <li
