@@ -9,8 +9,7 @@ export interface Party {
   galleryImages: string[]
   attendCount: number
 
-  groom: Person & { parents: Person[] }
-  bride: Person & { parents: Person[] }
+  organizer: Person
 }
 
 export interface Location {

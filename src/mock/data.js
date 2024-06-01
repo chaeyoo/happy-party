@@ -14,62 +14,18 @@ export const party = {
       ],
     },
   },
-  groom: {
-    name: '김루피',
+  organizer: {
+    name: '유채형',
     account: {
-      bankName: '신한',
-      accountNumber: '999-999-999999',
+      bankName: '국민',
+      accountNumber: '757102-04-344332',
       kakaopayLink: 'https://qr.kakaopay.com/Ej7nGjT7Y',
     },
-    phoneNumber: '01099999999',
-    parents: [
-      {
-        name: '이짱구',
-        account: {
-          bankName: '농협',
-          accountNumber: '999999-99-999999',
-        },
-        phoneNumber: '01099999999',
-      },
-      {
-        name: '김토끼',
-        account: {
-          bankName: '농협',
-          accountNumber: '999-9999-9999-99',
-        },
-        phoneNumber: '01099999999',
-      },
-    ],
-  },
-  bride: {
-    name: '유오콩',
-    account: {
-      bankName: '농협',
-      accountNumber: '999-9999-9999-99',
-    },
-    phoneNumber: '01099999999',
-    parents: [
-      {
-        name: '이짱구',
-        account: {
-          bankName: '농협',
-          accountNumber: '999999-99-999999',
-        },
-        phoneNumber: '01099999999',
-      },
-      {
-        name: '김토끼',
-        account: {
-          bankName: '농협',
-          accountNumber: '999-9999-9999-99',
-        },
-        phoneNumber: '01099999999',
-      },
-    ],
+    phoneNumber: '01091393987',
   },
   message: {
     intro:
-      '최고심이 입사하였습니다.\n원하던 회사 원하는 직무로요.\n입사 축하 파티에 참석해주세요~!\n그동안의 노력이\n결실을 맺어 이제 더 좋은 개발 환경에서 일하게 되었습니다. \n맛있는 음식과 신나는 음식이 있습니다.\n럭키드로우도 준비되어 있으니 많이 놀러와주세요!\n\n최고심',
+      '안녕하세요!\n여러분을 특별한 칵테일 파티로 초대합니다!\n멋진 칵테일과 함께 즐거운 시간을 보내실래요?\n특별한 음료를 준비했으니 여러분의 입맛에 맞게 선택해주세요.\n칵테일을 마시며 함께 좋은 대화와 웃음을 나누는 시간이 될 거예요.\n럭키드로우도 준비되어 있으니 많이 놀러와주세요!\n\n유채형',
     invitation: '소중한 분들을 초대합니다\n함께 즐겨요!',
   },
   galleryImages: [

@@ -14,6 +14,7 @@ import Map from './components/sections/Map'
 import Contact from './components/sections/Contact'
 import Share from './components/sections/Share'
 import { getParty } from './remote/party'
+import DataAddButton from './components/test/DataAddBtn'
 const cx = classNames.bind(styles)
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
     //   .finally(() => {
     //     setLoading(false)
     //   })
-    getParty('NkXZjxce7f8Uqct01qhF')
+    getParty('Iypv1hNiIMiI7IZmkolU')
       .then((response) => {
         // console.log(response)
         setParty(response)
@@ -66,24 +67,19 @@ function App() {
     return null
   }
 
-  const { date, galleryImages, groom, bride, location, message } = party
+  const { date, galleryImages, organizer, location, message } = party
   return (
     <div className={cx('container')}>
+      {/* <DataAddButton /> */}
       <Heading date={date} />
       <Video />
-      <Intro
-        name1={groom.name}
-        name2={bride.name}
-        location={location.name}
-        date={date}
-        message={message.intro}
-      />
+      <Intro location={location.name} date={date} message={message.intro} />
       <Invitation message={message.invitation} />
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
       <Map location={location} />
-      <Contact groom={groom} bride={bride} />
-      <Share groomName={groom.name} brideName={bride.name} date={date} />
+      <Contact organizer={organizer} />
+      <Share organizerName={organizer.name} date={date} />
     </div>
   )
 }

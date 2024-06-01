@@ -3,17 +3,26 @@
   padding: 8px;
 
   .wrap-contact-info {
+    .icon-money {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    letter-spacing: 1px;
     flex: 1;
     display: flex;
-    flex-direction: column;
     line-height: 1.3;
   }
 
   .wrap-buttons {
     .button {
+      font-size: 13px;
       width: 52px;
       height: 24px;
-      border: 1px solid var(--black);
+      box-shadow:
+        0 1px 3px rgba(51, 51, 51, 0.1),
+        0 1px 1px rgba(83, 83, 83, 0.2);
+      // border: 1px solid var(--black);
       display: inline-block;
       display: flex;
       justify-content: center;

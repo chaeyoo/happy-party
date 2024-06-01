@@ -14,14 +14,13 @@ declare global {
 }
 
 interface ShareProps {
-  groomName: string
-  brideName: string
+  organizerName: string
   date: string
 }
 
 const cx = classNames.bind(styles)
 
-function Share({ groomName, brideName, date }: ShareProps) {
+function Share({ organizerName, date }: ShareProps) {
   useEffect(() => {
     const script = document.createElement('script')
     script.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.3.0/kakao.min.js'
@@ -40,7 +39,7 @@ function Share({ groomName, brideName, date }: ShareProps) {
     window.Kakao.Share.sendDefault({
       objectType: 'feed',
       content: {
-        title: `${groomName} 🤩 ${brideName} 파티에 초대합니다.`,
+        title: `${organizerName}이 여는 칵테일 파티에 초대합니다.`,
         description: `${format(parseISO(date), 'M월 d일 eeee aaa h시', {
           locale: ko,
         })}`,
@@ -66,8 +65,9 @@ function Share({ groomName, brideName, date }: ShareProps) {
   return (
     <Section title="공유하기">
       <div className={cx('wrap-share')}>
-        <button onClick={handleShareKakao}>
+        <button className={cx('share-btn')} onClick={handleShareKakao}>
           <IconKakao />
+          {'카카오톡 공유'}
         </button>
         <CopyToClipboard
           text={window.location.origin}
@@ -75,8 +75,9 @@ function Share({ groomName, brideName, date }: ShareProps) {
             window.alert('복사가 완료되었습니다.')
           }}
         >
-          <button>
+          <button className={cx('share-btn')}>
             <IconClipboard />
+            링크복사
           </button>
         </CopyToClipboard>
       </div>
