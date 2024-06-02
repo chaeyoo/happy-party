@@ -7,7 +7,7 @@ const cx = classNames.bind(styles)
 function Video() {
   return (
     <Section className={cx('container')}>
-      <video autoPlay loop muted poster="/assets/thumbnail.png">
+      <video autoPlay loop muted playsInline poster="/assets/thumbnail.png">
         {/* <source src="/assets/main.webm" type="video/webm" /> */}
         <source src="/assets/video.mp4" type="video/mp4" />
       </video>
