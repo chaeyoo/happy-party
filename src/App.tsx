@@ -16,14 +16,7 @@ import useParty from './hooks/useParty'
 const cx = classNames.bind(styles)
 
 function App() {
-  const { party, isLoading, error } = useParty()
-
-  if (error) {
-    return <FullScreenMessage type="error" />
-  }
-  if (isLoading) {
-    return <FullScreenMessage type="loading" />
-  }
+  const { party } = useParty()
 
   if (party == null) {
     return null

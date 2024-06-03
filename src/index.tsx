@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { QueryClientProvider, QueryClient } from 'react-query'
 import './scss/global.scss'
+import FullScreenMessage from './components/common/FullScreenMessage'
+import ErrorBoundary from './components/common/ErrorBoundary'
 const queryClient = new QueryClient()
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <App />
+      <ErrorBoundary fallbackUI={<FullScreenMessage type="error" />}>
+        <Suspense fallback={<FullScreenMessage type="loading" />}>
+          <App />
+        </Suspense>
+      </ErrorBoundary>
     </QueryClientProvider>
   </React.StrictMode>,
 )
