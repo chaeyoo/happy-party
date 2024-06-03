@@ -11,9 +11,6 @@ export default function BoomIcon({ className }: { className: string }) {
           d="M95.25,38h0A13,13,0,0,0,84.57,23L73.5,21.19A13,13,0,0,1,63.91,14l-1.58-3.32a7.37,7.37,0,0,0-3.44-3.56,4.31,4.31,0,0,0-5.12.68A6,6,0,0,0,52,11.17l-.68,3.93a13,13,0,0,1-7.27,9.56L33.94,29.45a13,13,0,0,0-6.22,17.3h0"
           fill="none"
           stroke="#804102"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
         />
         <path
           d="M63.49,57a.06.06,0,0,1,0,0c.05.15-.06.37-.29.65L15.36,80.22c-.36,0-.6,0-.68-.19s0,0,0,0a.05.05,0,0,1,0-.05,26.66,26.66,0,0,1-1.74-5.31A27,27,0,0,1,27.77,44.51a27.25,27.25,0,0,1,5-1.79c.62-.15,1.23-.28,1.84-.38a27,27,0,0,1,28.82,14.6A.05.05,0,0,1,63.49,57Z"
@@ -63,47 +60,31 @@ export default function BoomIcon({ className }: { className: string }) {
           ry="6.5"
           transform="translate(38.53 137.52) rotate(-80.49)"
         />
-        <path
-          d="M37.5,75.5s6,2,6,8S59,83,59,91"
-          fill="none"
-          stroke="#fe3838"
-          stroke-miterlimit="10"
-          stroke-width="4"
-        />
+        <path d="M37.5,75.5s6,2,6,8S59,83,59,91" fill="none" stroke="#fe3838" />
         <path
           d="M73.45,81.93s3.82-5,9.51-3.11S87.47,64,95,66.57"
           fill="none"
           stroke="#3877fe"
-          stroke-miterlimit="10"
-          stroke-width="4"
         />
         <path
           d="M43.41,92.54s3,5.58-1.15,9.93S48,104,45,110.4"
           fill="none"
           stroke="#3877fe"
-          stroke-miterlimit="10"
-          stroke-width="4"
         />
         <path
           d="M18.45,99.93S25,104,25,94c0-1.12,12-3,4-10"
           fill="none"
           stroke="#a54fe7"
-          stroke-miterlimit="10"
-          stroke-width="3"
         />
         <path
           d="M104,80.48s-1.48,6-7.48-1c-.73-.85-9,1.62-4,11"
           fill="none"
           stroke="#a54fe7"
-          stroke-miterlimit="10"
-          stroke-width="3"
         />
         <path
           d="M79,110.23s-2.73-5.57,6.36-4.06c1.11.18,5.85-7-4-11"
           fill="none"
           stroke="#fe3838"
-          stroke-miterlimit="10"
-          stroke-width="4"
         />
         <circle cx="54" cy="80" fill="#fe3838" r="2" />
         <circle cx="100" cy="90" fill="#f7931e" r="2" />

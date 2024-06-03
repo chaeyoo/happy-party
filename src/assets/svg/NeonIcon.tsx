@@ -592,17 +592,7 @@ export default function NeonIcon({ className }: { className: string }) {
           d="M72.42,114.12a14.07,14.07,0,0,0,1.37-.43c.84-.18,1.61-.39,2.29-.61-1.95.61-2,.64-3.66,1"
           fill="#323a4a"
         />
-        <line
-          fill="none"
-          stroke="#323a4a"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
-          x1="64"
-          x2="64"
-          y1="7"
-          y2="37"
-        />
+        <line fill="none" stroke="#323a4a" x1="64" x2="64" y1="7" y2="37" />
         <rect fill="#323a4a" height="6" width="10" x="59" y="33" />
       </g>
     </svg>

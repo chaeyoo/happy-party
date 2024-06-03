@@ -74,9 +74,6 @@ export default function CocktailIcon({ className }: { className: string }) {
         <line
           fill="none"
           stroke="#e6e6e6"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
           x1="58.13"
           x2="54.5"
           y1="31.63"
@@ -85,9 +82,6 @@ export default function CocktailIcon({ className }: { className: string }) {
         <line
           fill="none"
           stroke="#e6e6e6"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
           x1="70.75"
           x2="74.37"
           y1="32.12"
@@ -96,9 +90,6 @@ export default function CocktailIcon({ className }: { className: string }) {
         <line
           fill="none"
           stroke="#fe3838"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
           x1="64"
           x2="64"
           y1="11.17"
@@ -107,9 +98,6 @@ export default function CocktailIcon({ className }: { className: string }) {
         <line
           fill="none"
           stroke="#fe3838"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
           x1="54.8"
           x2="59.04"
           y1="15.13"
@@ -118,9 +106,6 @@ export default function CocktailIcon({ className }: { className: string }) {
         <line
           fill="none"
           stroke="#fe3838"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
           x1="73.54"
           x2="69.3"
           y1="15.13"
@@ -130,9 +115,6 @@ export default function CocktailIcon({ className }: { className: string }) {
           d="M17.5,103S12.06,88.29,24,89.5c16.5,1.67,41.33,37.75,53.25,13,6.87-14.27-14.11-13.9-13.75-4.33.67,17.83,38.64,9.29,48.25-1.92,7.44-8.67-6.25-8.75-6.25-8.75"
           fill="none"
           stroke="#fe3838"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
         />
       </g>
     </svg>
