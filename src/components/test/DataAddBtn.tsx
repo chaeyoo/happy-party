@@ -16,7 +16,7 @@ function DataAddButton() {
     alert('데이터 추가완료!')
   }
 
-  return <button onClick={handleButtonClick}>데이터 추가하기</button>
+  return <button onClick={handleButtonClick}>데이터 추가하기 </button>
 }
 
 export default DataAddButton
