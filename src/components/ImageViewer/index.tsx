@@ -38,10 +38,7 @@ function ImageViewer({
         {images.map((src, idx) => {
           return (
             <SwiperSlide key={idx}>
-              <picture>
-                <source srcSet={`${src}.webp`} type="image/webp" />
-                <img src={`${src}.png`} alt="이미지" />
-              </picture>
+              <img src={src} alt="이미지" />
             </SwiperSlide>
           )
         })}
