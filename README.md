@@ -17,6 +17,7 @@
 ## DEMO 
 - [Happy-Party](https://master.d4zwbzignxki2.amplifyapp.com/) 
 
+![party2](https://github.com/user-attachments/assets/a181d0f7-a2f1-4f95-bfe8-f5c3102f7b3d)
 
 ## 주요기능
 ##### 메인 동영상
